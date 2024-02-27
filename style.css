@@ -119,6 +119,10 @@ h1{
 /* footer */
 footer{
     background-color: #111111;
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; */
 }
 footer img{
     max-width: 154px;
@@ -157,4 +161,108 @@ footer li{
     font-family: "ubuntu", sans-serif;
     font-weight: 300;
     font-size: 24px;
+}
+
+
+/* /////////////// home page //////////////// */
+
+.home-section1{
+    background-image: url(images/home\ banner.png);
+    height: 790px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.homeButton{
+    max-width: 371px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-section1 h1{
+    width: 1010px;
+    font-size: 80px;
+    color: white;
+    font-family: "ubuntu", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.home-section1 p{
+    font-size: 24px;
+    color: white;
+    font-family: "ubuntu", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* second section */
+.homeSection2{
+    /* background-image: url(images/home1.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 630px;
+    width: 100%;
+    height: 500px;
+}
+.homeSection2:nth-child(1){
+    background-image: url(images/home1.png);
+}
+.homeSection2:nth-child(2){
+    background-image: url(images/home2.png);
+}
+.homeSection2:nth-child(3){
+    background-image: url(images/home3.png);
+}
+.homeSection2:nth-child(4){
+    background-image: url(images/home4.png);
+}
+.homeSection2Wrap{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 59px;
+}
+.homeH2{
+    font-size: 45px;
+    text-align: center;
+    margin: 80px 0 47px 0;
+}
+.homeSection2 h3{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    width: 381px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeSection2 button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottomButton{
+    max-width: 418px;
+    margin: 0 auto 122px auto;
+}
+
+.bottomButton button{
+    max-width: 418px;
 }
